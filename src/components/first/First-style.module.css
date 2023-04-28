@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.man_part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+    background: url('../../../public/first/man.jpg') no-repeat;
+    object-fit: cover;
+}
+
+.woman_part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+    background: url('../../../public/first/woman.jpg') no-repeat;
+    object-fit: cover;
+}
+
+.first__title {
+    position: relative;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 75px;
+    color: #FFFFFF;
+}
+
+.first__title::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate( -50%, 0%);
+    display: inline-block;
+    background-color: #FFFFFF;
+    width: 191px;
+    height: 3px;
+}
