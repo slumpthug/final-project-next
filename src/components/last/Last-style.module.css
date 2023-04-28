@@ -1,0 +1,79 @@
+.last__title {
+    background: url("../../../public/last/background.jpg") no-repeat;
+    object-fit: cover;
+    background-position: center;
+    padding: 230px 100px 270px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 15px;
+    text-align: center;
+}
+
+.last__title p {
+    width: 700px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.last__title button {
+    padding: 14px;
+    font-weight: 600;
+    font-size: 16px;
+    border-bottom: 2px solid #FFFFFF;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.margin {
+    margin: 0px 100px;
+}
+
+.last__content {
+    position: relative;
+    top: -100px;
+    height: 200px;
+    padding: 0px 100px 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 65px rgba(0, 0, 0, 0.05);
+    background-color: #FFFFFF;
+}
+
+.phone {
+    position: relative;
+    top: -32px;
+}
+
+.last__user_part h2 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.last__inputs {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.last__user_part input {
+    width: 300px;
+    padding: 15px 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.last__user_part button {
+    padding: 17px 40px;
+    background-color: #000;
+    font-weight: 700;
+    font-size: 13px;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-transform: uppercase;
+}
