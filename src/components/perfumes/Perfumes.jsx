@@ -11,7 +11,9 @@ const Perfumes = () => {
                         <h2>
                             Maison <br/> Francis Kurkdjian <br/> Baccarat Rouge 540
                         </h2>
-                        <button>смотреть</button>
+                        <button>
+                            <span>смотреть</span>
+                        </button>
                     </div>
                 </div>
                 <div className={css.perfume_right}>
@@ -20,7 +22,9 @@ const Perfumes = () => {
                         <h2>
                             Dr.Vranjes <br/> Rosso Nibile
                         </h2>
-                        <button>смотреть</button>
+                        <button>
+                            <span>смотреть</span>
+                        </button>
                     </div>
                 </div>
             </div>

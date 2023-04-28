@@ -26,6 +26,12 @@
     font-size: 16px;
     color: #FFFFFF;
     cursor: pointer;
+    transition: all .3s;
+}
+
+.perfume_left button:first-child:hover {
+    background-color: #FFFFFF;
+    color: #333333;
 }
 
 .perfume_right {
@@ -49,6 +55,12 @@
     font-size: 16px;
     color: #333333;
     cursor: pointer;
+    transition: all .3s;
+}
+
+.perfume_right button:first-child:hover {
+    color: #FFFFFF;
+    background-color: #333333;
 }
 
 .perfumes__title h2 {
@@ -59,10 +71,39 @@
 }
 
 .perfumes__title button {
-    padding: 14px;
-    font-weight: 600;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.perfumes__title button span {
+    position: relative;
+    padding: 14px 20px;
+    display: inline-block;
     font-size: 16px;
-    border-bottom: 2px solid #FFFFFF;
+    color: #fff;
+    font-weight: 600;
     text-transform: uppercase;
-    color: #FFFFFF;
+    z-index: 1;
+    transition: all .3s;
+}
+
+.perfumes__title button span:hover {
+    color: #000;
+}
+
+.perfumes__title button::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transition: width .5s, height .5s;
+}
+
+.perfumes__title button:hover:after {
+    width: 100%;
+    height: 100%;
 }

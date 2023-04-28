@@ -4,7 +4,7 @@ import css from './MainButton-style.module.css';
 const MainButton = ({text}) => {
     return (
         <button className={css.mainButton}>
-            {text}
+            <span>{text}</span>
         </button>
     );
 };
