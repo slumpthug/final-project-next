@@ -1,6 +1,7 @@
 import Brands from "@/components/brands/Brands";
 import Collection from "@/components/collection/Collection";
 import First from "@/components/first/First";
+import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import Last from "@/components/last/Last";
 import Novelties from "@/components/novelties/Novelties";
@@ -19,6 +20,7 @@ export default function Home() {
       <Perfumes/>
       <Promotion/>
       <Last/>
+      <Footer/>
     </main>
   )
 }
