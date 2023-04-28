@@ -3,6 +3,7 @@ import Collection from "@/components/collection/Collection";
 import First from "@/components/first/First";
 import Header from "@/components/header/Header";
 import Novelties from "@/components/novelties/Novelties";
+import Perfumes from "@/components/perfumes/Perfumes";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Brands/>
       <Collection/>
       <Novelties/>
+      <Perfumes/>
     </main>
   )
 }

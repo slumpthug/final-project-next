@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.perfume_left {
+    padding: 70px 110px;
+    width: 100%;
+    height: 800px;
+    background: url('../../../public/perfumes/perfume.jpg') no-repeat;
+    object-fit: cover;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.perfume_left button:first-child {
+    padding: 20px 30px;
+    text-transform: uppercase;
+    border: 1px solid #FFFFFF;
+    border-radius: 72px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.perfume_right {
+    padding: 70px 110px;
+    width: 100%;
+    height: 800px;
+    background: url('../../../public/perfumes/perfumetwo.jpg') no-repeat;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.perfume_right button:first-child {
+    padding: 20px 30px;
+    text-transform: uppercase;
+    border: 1px solid #333333;
+    border-radius: 72px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #333333;
+    cursor: pointer;
+}
+
+.perfumes__title h2 {
+    font-weight: 300;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.perfumes__title button {
+    padding: 14px;
+    font-weight: 600;
+    font-size: 16px;
+    border-bottom: 2px solid #FFFFFF;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
