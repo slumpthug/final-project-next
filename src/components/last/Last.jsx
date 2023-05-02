@@ -25,10 +25,8 @@ const Last = () => {
                             </h2>
                             <div className={css.last__inputs}>
                                 <input type="text" placeholder='Имя'/>
-                                <div>
-                                    <input type="text" placeholder='Телефон'/>
-                                    <button>оформить рассылку</button>
-                                </div>
+                                <input type="text" placeholder='Телефон'/>
+                                <button>оформить рассылку</button>
                             </div>
                         </div>
                     </div>

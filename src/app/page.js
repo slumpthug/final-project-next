@@ -1,5 +1,7 @@
+import Basket from "@/components/basket/basket";
 import Brands from "@/components/brands/Brands";
 import Collection from "@/components/collection/Collection";
+import Decor from "@/components/decor/Decor";
 import First from "@/components/first/First";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
@@ -21,6 +23,8 @@ export default function Home() {
       <Promotion/>
       <Last/>
       <Footer/>
+      {/* <Basket/>
+      <Decor/> */}
     </main>
   )
 }

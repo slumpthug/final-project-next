@@ -38,14 +38,14 @@ const Footer = () => {
                             <h6>Офис в России</h6>
                             <a href='#'>Москва, Кутузовский пр. 2 <br/> Санкт-Петербург, Большой проспект П.С. 13</a>
                         </div>
-                        <Image className={label} src={label} alt="label" />
+                        <Image className={css.label} src={label} alt="label" />
                     </div>
                     <div className={css.footer__address}>
                         <div>
                             <h6>Офис в Италии</h6>
                             <a href='#'>Milano, Via Manzoni 23</a>
                         </div>
-                        <Image className={label} src={label} alt="label" />
+                        <Image className={css.label} src={label} alt="label" />
                     </div>
                     <div className={css.footer__socials}>
                         <a href="#">

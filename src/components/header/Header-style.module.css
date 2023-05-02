@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    column-gap: 10px;
     border-bottom: 1px solid #000;
 }
 
@@ -28,7 +29,7 @@
 
 .search {
     padding: 14px 51px;
-    width: 780px;
+    width: 60%;
     height: 40px;
     font-weight: 400;
     font-size: 14px;
@@ -85,4 +86,16 @@
 
 .user_link:hover span {
     text-decoration: underline;
+}
+
+@media (max-width: 1400px) {
+    .container {
+        padding: 22px 60px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        padding: 22px;
+    }
 }

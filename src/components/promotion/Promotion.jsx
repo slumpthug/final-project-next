@@ -3,15 +3,14 @@ import React from 'react';
 import css from './Promotion-style.module.css';
 import Image from 'next/image';
 import bag from '../../../public/novelties/bag.jpg';
+import MainButton from '../main-button/MainButton';
 
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, EffectCreative } from "swiper";
 
 import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-
-import { Pagination, Navigation } from "swiper";
-import MainButton from '../main-button/MainButton';
+import "swiper/css/effect-creative";
+import "swiper/css";
 
 const Promotion = () => {
     return (
@@ -30,11 +29,21 @@ const Promotion = () => {
                             initialSlide={1}
                             spaceBetween={30}
                             loop={true}
-                            pagination={{
-                              clickable: true,
+                            autoplay={{
+                                delay: 1000,
+                                disableOnInteraction: false,
                             }}
-                            navigation={true}
-                            modules={[Pagination, Navigation]}
+                            // breakpoints={{
+                            //     1500: {
+                            //         slidesPerView: 4,
+                            //     },
+                            //     1300: {
+                            //         slidesPerView: 2,
+                            //     },
+                            // }}
+                            grabCursor={true}
+                            preventClicks={true}
+                            modules={[Autoplay]}
                             className={css.swiper}
                         >
                             <SwiperSlide className={css.swiper_slide}>
@@ -108,6 +117,105 @@ const Promotion = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className={css.swiper_slide}>
+                                <div className={css.promotion__card}>
+                                    <Image className={css.bag} src={bag} alt="bag" />
+                                    <h5>saint laurent</h5>
+                                    <div>
+                                        <span>123 000 ₽</span>
+                                        <span>96 000 ₽</span>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                        </Swiper>
+                    </div>
+                    <div className={css.promotion__slider_two}>
+                        <Swiper
+                            grabCursor={true}
+                            effect={"creative"}
+                            creativeEffect={{
+                              prev: {
+                                shadow: true,
+                                translate: ["-120%", 0, -500],
+                              },
+                              next: {
+                                shadow: true,
+                                translate: ["120%", 0, -500],
+                              },
+                            }}
+                            modules={[EffectCreative]}
+                            className="mySwiper2"
+                        >
+                            <SwiperSlide>
+                                <div className={css.promotion__card}>
+                                    <Image className={css.bag} src={bag} alt="bag" />
+                                    <h5>saint laurent</h5>
+                                    <div>
+                                        <span>123 000 ₽</span>
+                                        <span>96 000 ₽</span>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className={css.promotion__card}>
+                                    <Image className={css.bag} src={bag} alt="bag" />
+                                    <h5>saint laurent</h5>
+                                    <div>
+                                        <span>123 000 ₽</span>
+                                        <span>96 000 ₽</span>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className={css.promotion__card}>
+                                    <Image className={css.bag} src={bag} alt="bag" />
+                                    <h5>saint laurent</h5>
+                                    <div>
+                                        <span>123 000 ₽</span>
+                                        <span>96 000 ₽</span>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className={css.promotion__card}>
+                                    <Image className={css.bag} src={bag} alt="bag" />
+                                    <h5>saint laurent</h5>
+                                    <div>
+                                        <span>123 000 ₽</span>
+                                        <span>96 000 ₽</span>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className={css.promotion__card}>
+                                    <Image className={css.bag} src={bag} alt="bag" />
+                                    <h5>saint laurent</h5>
+                                    <div>
+                                        <span>123 000 ₽</span>
+                                        <span>96 000 ₽</span>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className={css.promotion__card}>
+                                    <Image className={css.bag} src={bag} alt="bag" />
+                                    <h5>saint laurent</h5>
+                                    <div>
+                                        <span>123 000 ₽</span>
+                                        <span>96 000 ₽</span>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className={css.promotion__card}>
+                                    <Image className={css.bag} src={bag} alt="bag" />
+                                    <h5>saint laurent</h5>
+                                    <div>
+                                        <span>123 000 ₽</span>
+                                        <span>96 000 ₽</span>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
                                 <div className={css.promotion__card}>
                                     <Image className={css.bag} src={bag} alt="bag" />
                                     <h5>saint laurent</h5>

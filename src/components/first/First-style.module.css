@@ -13,8 +13,14 @@
     height: 800px;
     background: url('../../../public/first/man.jpg') no-repeat;
     object-fit: cover;
+    background-size: cover;
+    background-position: center;
 }
 
+/* .man_part:hover {
+    box-shadow: 20px #000000 inset;
+} */
+ 
 .woman_part {
     display: flex;
     flex-direction: column;
@@ -24,6 +30,8 @@
     height: 800px;
     background: url('../../../public/first/woman.jpg') no-repeat;
     object-fit: cover;
+    background-size: cover;
+    background-position: center;
 }
 
 .first__title {
@@ -44,4 +52,11 @@
     background-color: #FFFFFF;
     width: 191px;
     height: 3px;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+        justify-content: initial;
+    }
 }

@@ -1,0 +1,10 @@
+.mainButtonTwo {
+    width: 100%;
+    padding: 16px 40px;
+    background-color: #000;
+    font-weight: 700;
+    font-size: 13px;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-transform: uppercase;
+}

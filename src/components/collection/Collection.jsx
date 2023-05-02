@@ -12,11 +12,11 @@ const Collection = () => {
                 <div className={css.collection__wrapper}>
                     <div className={css.collection__card}>
                         <Image className={css.man} src={man} alt="" />
-                        <p>Спортивный костюм Artigiani, футболка Artigiani, кеды Santoni</p>
+                        <p>Спортивный костюм Artigiani, футболка Artigiani, джинсы Jacob Cohen, кеды Santoni</p>
                     </div>
                     <div className={css.collection__card}>
                         <Image className={css.man} src={man} alt="" />
-                        <p>Пуховый жилет Kiton, джинсы Jacob Cohen, футболка Fedeli, кроссовки Valentino, бейсболка Kiton</p>
+                        <p>Пуховый жилет Kiton, джинсы Jacob Cohen, футболка Fedeli, кроссовки Valentino</p>
                     </div>
                     <div className={css.collection__card}>
                         <Image className={css.man} src={man} alt="" />

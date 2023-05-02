@@ -15,13 +15,13 @@
 
 .collection__wrapper {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     column-gap: 20px;
 }
 
 .collection__card {
     width: 320px;
-    height: 580px;
+    height: 100%;
     text-align: center;
 }
 
@@ -36,4 +36,19 @@
     font-weight: 500;
     font-size: 16px;
     color: #414141;
+}
+
+@media (max-width: 1400px) {
+    .collection__wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        padding: 40px 20px;
+        margin: 0px;
+    }
 }

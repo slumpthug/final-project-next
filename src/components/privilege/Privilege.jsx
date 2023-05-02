@@ -13,7 +13,7 @@ const Privilege = () => {
                 </div>
                 <div>
                     <Image className={css.bags} src={bags} alt="bags" />
-                    <p>100% оригинальные вещи</p>
+                    <p>оригинальные вещи</p>
                 </div>
                 <div>
                     <Image className={css.bags} src={bags} alt="bags" />
