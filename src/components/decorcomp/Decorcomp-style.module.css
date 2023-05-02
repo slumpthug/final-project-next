@@ -220,3 +220,80 @@
     font-size: 12px;
     color: #969696;
 }
+
+@media (max-width: 1050px) {    
+    .decor__content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        row-gap: 40px;
+        margin-bottom: 50px;
+    } 
+
+    .decor__inputs_part {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        margin: 50px;
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        margin: 24px 20px;
+    }
+
+    .decor__inputs_part h3 {
+        text-align: center;
+    }
+
+    .even__inputs {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .even__inputs input {
+        width: 100%;
+    }
+
+    .delivery__part {
+        flex-direction: column;
+    }
+    
+    .checkbox__cont {
+        align-items: flex-start;
+        row-gap: 10px;
+        flex-direction: column;
+    }
+
+    .uneven__inputs {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    
+    .uneven__inputs input:first-child {
+        width: 100%;
+    }
+    
+    .uneven__inputs input:last-child {
+        width: 100%;
+    }
+
+    .decor__check {
+        width: 100%;
+    }
+
+    .card__title h4 {
+        width: 100%;
+    }
+
+    .card__ptice {
+        width: 70px;
+    }
+}

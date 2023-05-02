@@ -13,33 +13,33 @@ const Basketcomp = () => {
         <div className={css.basketcomp}>
             <div className={css.container}>
                 <div className={css.basket__content}>
-                    <div>
-                        <div className={css.basket__table}>
-                            <div className={css.table__names}>
-                                <span>товар</span>
-                                <span>Цена</span>
-                                <span>скидка</span>
-                                <span>итого</span>
-                            </div>
-                            <div className={css.basket__card}>
+                    <div className={css.basket__table}>
+                        <div className={css.basket__card}>
+                            <div className={css.info__cont}>
                                 <Image src={boots} alt="boots" />
                                 <div className={css.card__title}>
-                                    <h4>Ботинки из телячьей кожи Brunello Cucinelli</h4>
+                                    <h4 className={css.card__title_before}>Ботинки из телячьей кожи Brunello Cucinelli</h4>
                                     <span>Размер: 43</span>
                                 </div>
-                                <span>43 000 р</span>
-                                <span>-20 000 р</span>
-                                <span>23 000 р</span>
+                            </div>
+                            <div className={css.price__cont}>
+                                <span className={css.span_before}>43 000 р</span>
+                                <span className={css.span_before}>-20 000 р</span>
+                                <span className={css.span_before}>23 000 р</span>
                                 <a href="#">
                                     <Image className={css.close} src={close} alt="cross" />
                                 </a>
                             </div>
-                            <div className={css.basket__card}>
+                        </div>
+                        <div className={css.basket__card}>
+                            <div className={css.info__cont}>
                                 <Image src={boots} alt="boots" />
                                 <div className={css.card__title}>
                                     <h4>Ботинки из телячьей кожи Brunello Cucinelli</h4>
                                     <span>Размер: 43</span>
                                 </div>
+                            </div>
+                            <div className={css.price__cont}>
                                 <span>43 000 р</span>
                                 <span>-20 000 р</span>
                                 <span>23 000 р</span>

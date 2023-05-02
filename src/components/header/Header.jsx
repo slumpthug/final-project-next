@@ -17,14 +17,16 @@ const Header = () => {
                     <Image className={css.logo} src={logo} alt="companys logo" />
                 </a>
                 <input placeholder='Поиск по продукции' className={css.search}></input>
-                <a className={css.user_link} href='#'>
-                    <Image className={css.box} src={box} alt="box" />
-                    <span>Доставка</span>
-                </a>
-                <a className={css.user_link} href='#'>
-                    <Image className={css.basket} src={basket} alt="basket" />
-                    <span>Корзина</span>
-                </a>
+                <div className={css.links__container}>
+                    <a className={css.user_link} href='#'>
+                        <Image className={css.box} src={box} alt="box" />
+                        <span>Доставка</span>
+                    </a>
+                    <a className={css.user_link} href='#'>
+                        <Image className={css.basket} src={basket} alt="basket" />
+                        <span>Корзина</span>
+                    </a>
+                </div>
             </div>
         </div>
     );

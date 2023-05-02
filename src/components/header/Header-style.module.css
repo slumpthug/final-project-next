@@ -42,6 +42,13 @@
     color: #B2B2B2;
 }
 
+.links__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
 .user_link {
     display: flex;
     flex-direction: column;
@@ -97,5 +104,24 @@
 @media (max-width: 1000px) {
     .container {
         padding: 22px;
+    }
+}
+
+@media (max-width: 700px) {
+    .search {
+        display: none;
+    }
+
+    .user_link:first-child {
+        display: none;
+    }
+
+    .user_link span {
+        display: none;
+    }
+
+    .user_link:last-child::before {
+        right: -5px;
+        bottom: -1px;
     }
 }

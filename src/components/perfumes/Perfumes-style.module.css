@@ -116,3 +116,19 @@
         justify-content: initial;
     }
 }
+
+@media (max-width: 600px) {
+    .perfume_left {
+        padding: 30px;
+        height: 500px;
+    }
+
+    .perfume_right {
+        padding: 30px;
+        height: 500px;
+    }
+    
+    .perfumes__title h2 {
+        font-size: 24px;
+    }
+}

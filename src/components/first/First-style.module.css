@@ -60,3 +60,23 @@
         justify-content: initial;
     }
 }
+
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        justify-content: initial;
+    }
+
+    .first__title {
+        font-size: 50px;
+    }
+
+    .man_part {
+        height: 500px;
+    }
+     
+    .woman_part {
+        height: 500px;
+    }
+}

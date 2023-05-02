@@ -201,4 +201,42 @@
         color: #FFFFFF;
         margin-bottom: 30px;
     }
+
+    .margin {
+        margin: 0px 50px;
+    }
+}
+
+@media (max-width: 650px) {
+    .margin {
+        margin: 0px 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 250px;
+        height: 78px;
+    }
+}
+
+@media (max-width: 480px) {
+    .margin {
+        margin: 0px;
+    }
+
+    .phone {
+        width: 220px;
+        height: 180px;
+    }
+
+    .last__content {
+        top: 0px;
+        padding: 10px;
+        margin: 20px 0px;
+    }
+
+    .last__title {
+        padding: 20px 10px;
+    }
 }

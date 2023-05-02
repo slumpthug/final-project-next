@@ -10,7 +10,6 @@ import { Autoplay, EffectCreative } from "swiper";
 
 import "swiper/css";
 import "swiper/css/effect-creative";
-import "swiper/css";
 
 const Novelties = () => {
     return (

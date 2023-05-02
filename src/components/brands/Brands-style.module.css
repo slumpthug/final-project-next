@@ -54,3 +54,10 @@
         border-left:  1px solid #D9D9D9;
     }
 }
+
+@media (max-width: 300px) {
+    .container h1 {
+        font-weight: 300;
+        font-size: 30px;
+    }
+}

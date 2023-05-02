@@ -10,7 +10,7 @@ const Last = () => {
         <div className={css.last}>
             <div className={css.container}>
                 <div className={css.last__title}>
-                    <Image className={logo} src={logo} alt="logo" />
+                    <Image className={css.logo} src={logo} alt="logo" />
                     <p>Изделия премиального качества из самых лучших материалов, ориентируясь на традиции итальянских производителей.</p>
                     <button>
                             <span>смотреть КОЛЛЕКЦИЮ</span>

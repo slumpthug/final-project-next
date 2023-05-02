@@ -98,3 +98,17 @@
         height: auto;
     }
 }
+
+@media (max-width: 500px) {
+    .novelties__slider_two {
+        display: block;
+        width: 300px;
+    }
+}
+
+@media (max-width: 300px) {
+    .novelties__titles h1 {
+        font-weight: 300;
+        font-size: 30px;
+    }
+}
