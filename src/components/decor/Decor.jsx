@@ -6,7 +6,9 @@ import Footer from '../footer/Footer';
 const Decor = () => {
     return (
         <div>
+            <Header/>
             <Decorcomp/>
+            <Footer/>
         </div>
     );
 };
