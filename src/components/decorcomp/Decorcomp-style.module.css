@@ -2,6 +2,12 @@
     margin: 50px 100px;
 }
 
+
+.errors{
+    color: red;
+    font-size: 14px;
+}
+
 .decor__content {
     display: flex;
     justify-content: space-between;

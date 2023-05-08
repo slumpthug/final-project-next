@@ -8,3 +8,10 @@
     cursor: pointer;
     text-transform: uppercase;
 }
+
+.mainButtonTwo:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 1s ;
+    border: 1px solid #000;
+}
