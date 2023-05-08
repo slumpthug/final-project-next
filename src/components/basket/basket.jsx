@@ -6,9 +6,7 @@ import Basketcomp from '../basketcomp/Basketcomp';
 const Basket = () => {
     return (
         <div className='basket'>
-            <Header/>
             <Basketcomp/>
-            <Footer/>
         </div>
     );
 };
