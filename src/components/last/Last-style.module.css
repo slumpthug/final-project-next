@@ -1,3 +1,9 @@
+
+.errors{
+    color: red;
+    font-size: 14px;
+}
+
 .last__title {
     background: url("../../../public/last/background.jpg") no-repeat;
     object-fit: cover;

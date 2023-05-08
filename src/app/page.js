@@ -16,19 +16,19 @@ import Promotion from "@/components/promotion/Promotion";
 export default function Home() {
   return (
     <main>
-      {/* <Header />
-      <First />
-      <Brands />
-      <Collection />
-      <Novelties />
-      <Perfumes />
-      <Promotion />
+      {/* <Header /> */}
+      {/* <First /> */}
+      {/* <Brands /> */}
+      {/* <Collection /> */}
+      {/* <Novelties /> */}
+      {/* <Perfumes /> */}
+      {/* <Promotion /> */}
       <Last />
-      <Footer /> */}
+      {/* <Footer /> */}
       {/* <Basket /> */}
       <Decor />
-      {/* <Form />
-      <Product /> */}
+      {/* <Form /> */}
+      {/* <Product /> */}
     </main>
   )
 }
